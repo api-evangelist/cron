@@ -1,9 +1,28 @@
 aid: cron
 name: Cron
-description: 'Cron is a company surfaced as a portfolio company of initialized-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Cron was a next-generation calendar application for professionals and teams, backed by Initialized
+  Capital and later acquired by Notion, where it was rebranded and relaunched as Notion Calendar. The
+  product offered a fast, keyboard-driven desktop and mobile calendar with multi-account scheduling,
+  time-zone handling, team availability, and deep Notion workspace integration (calendar events linked
+  to Notion pages and databases). Cron is an end-user consumer product and does not expose a public
+  developer API, OpenAPI definition, SDKs, or developer portal; its public surface is a marketing site,
+  a dated changelog (retired January 2024 at the Notion Calendar rebrand), a blog, and help
+  documentation now hosted within Notion. This profile captures Cron's public identity and
+  domain-security posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/cron/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://calendar.cron.com/Cron-favicon-style1-31@2x.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Calendar
+- Scheduling
+- Productivity
+- Notion
+- Calendaring
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,29 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cron-domain-security.yml
 - type: Website
   url: https://cron.com/
+- type: Documentation
+  url: https://www.notion.so/help/category/notion-calendar
+- type: Blog
+  url: https://cron.com/blog
+- type: ChangeLog
+  url: https://cron.com/changelog
+- type: ChangeLog
+  name: Cron Changelog (captured)
+  url: changelog/cron-changelog.yml
+- type: SignUp
+  url: https://calendar.notion.so/signup
+- type: Login
+  url: https://calendar.notion.so/login
+- type: TermsOfService
+  url: https://cron.com/terms
+- type: PrivacyPolicy
+  url: https://cron.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

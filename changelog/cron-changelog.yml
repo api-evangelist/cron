@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: https://cron.com/changelog
+scheme: date-based
+current_version: null
+note: >-
+  Cron published a dated changelog (69 entries) until January 15, 2024, when the
+  product rebranded to Notion Calendar; subsequent release notes moved to Notion.
+  No semantic version numbers were used — entries are identified by publication date.
+entries:
+- date: '2024-01-15'
+  breaking: false
+  additions: false
+  highlights: >-
+    Final Cron-branded changelog entry — Cron rebrands to Notion Calendar with
+    expanded Notion database integration.
+- date: '2023-10-30'
+  breaking: false
+  additions: true
+  highlights: >-
+    Google Groups support, drag-and-drop for all-day events, and Apple Maps
+    integration.
+- date: '2023-06-26'
+  breaking: false
+  additions: true
+  highlights: >-
+    Event attachments and Notion pages integrated directly into calendar events.
+- date: '2023-05-01'
+  breaking: false
+  additions: true
+  highlights: >-
+    General availability launch removing the waitlist, with cross-platform
+    performance improvements.
