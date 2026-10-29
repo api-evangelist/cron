@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cron is a company surfaced as a portfolio company of initialized-capital and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.
+Cron was a next-generation calendar application for professionals and teams, backed by Initialized Capital and later acquired by Notion, where it was rebranded and relaunched as Notion Calendar. The product offered a fast, keyboard-driven desktop and mobile calendar with multi-account scheduling, time-zone handling, team availability, and deep Notion workspace integration (calendar events linked to Notion pages and databases). Cron is an end-user consumer product and does not expose a public developer API, OpenAPI definition, SDKs, or developer portal; its public surface is a marketing site, a dated changelog (retired January 2024 at the Notion Calendar rebrand), a blog, and help documentation now hosted within Notion. This profile captures Cron's public identity and domain-security posture for the API Evangelist network.
 
-Backed by: initialized-capital — https://cron.com/
+**Areas:** Company · Consumer · Calendar · Scheduling · Productivity · Notion · Calendaring
+
+## Cron on APIs.io
+
+Everything profiled for Cron is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cron/](https://apis.io/providers/cron/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cron Domain Security](https://apis.io/security/cron/cron-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://cron.com/)
+- [Documentation](https://www.notion.so/help/category/notion-calendar)
+- [Sign up](https://calendar.notion.so/signup)
+- [Changelog](https://cron.com/changelog)
+- [Blog](https://cron.com/blog)
+- [Terms of service](https://cron.com/terms)
+- [Privacy policy](https://cron.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 15.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cron/](https://apis.io/providers/cron/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cron: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cron/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
